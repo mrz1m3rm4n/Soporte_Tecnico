@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	clear: both;
+    float: none;
+}
+
+.alerta{
+    padding: 10px;
+    background-color: green;
+}
+
+.alerta-error{
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+body{
+	background-color: #000;
+}
+
+h2{
+    background: linear-gradient(to bottom, #9475b0 0px, #561a75 50%, #3e2648 100%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu{
+	clear: both;
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 1px 1px #ccc;
+    background: linear-gradient(to bottom, #9475b0 0px, #561a75 50%, #3e2648 100%);
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+}
+
+#menu ul li{
+    line-height: 44px;
+    border-right: 1px solid #fff;
+}
+
+#menu ul li a{
+	text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+#menu ul li a:hover{
+   background-color: #3e2648;
+}
+
+/*	Barra Lateral	*/
+
+.main{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#aside{
+	width: 300px;
+    height: 216px;
+    background-color: #fff;
+    padding: 1px;
+    float: left;
+}
+
+.bloque{
+	margin: 20px 10px;
+}
+
+h3{
+	text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select{
+	display: block;
+    width: 95%;
+    margin: 0px auto;
+    height: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: solid 1px #3243;
+    border-left: solid 1px #3243;
+    border-bottom: solid 3px #3243;
+    border-right: solid 3px #3243;
+}
+
+select{
+    margin-top: 20px;
+    height: 30px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus{
+	outline: none;
+    border-top: solid 1px #9475b0;
+    border-left: solid 1px #9475b0;
+    border-bottom: solid 3px #9475b0;
+    border-right: solid 3px #9475b0;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0px auto;
+    padding: 6px 20px;
+    background: linear-gradient(to bottom, #9475b0 0px, #561a75 50%, #3e2648 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+}
+
+#principal{
+    background-color: red;
+}
+
+/* INFORMACION */
+
+.contenedor{
+    width: 300px;
+    padding: 1px;
+    margin: 20px 0px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contenedor form{
+    
+}
+
+.contenedor .input{
+    margin: 20px auto;
+    font-size: 17px;
+}
+
+.contenedor input[type="submit"]{
+    margin: 20px auto;
+}
+
+.formulario{
+    width: 75%;
+    float: right;
+    position: relative;
+    top: -419px;
+    margin: 0px 3%;
+}
+
+.negocio{
+    top: -518px;
+}
+
+.sucursales{
+    top: -644px;
+}
+
+.usuarios{
+    top: -643px;
+}
+
+.reportes{
+    top: -871px;
+} 
+
+table{
+    width: 95%;
+    background-color: #fff;
+    margin: 50px 2.5%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 21px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer{
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: linear-gradient(to bottom, #9475b0 0px, #561a75 50%, #3e2648 100%);
+}

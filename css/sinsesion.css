@@ -1,0 +1,13 @@
+.sinsesion{
+	display: none !important;
+}
+
+.total{
+	width: 80% !important;
+    margin: 200px 10%;
+}
+
+.total .bloque{
+	width: 20% !important;
+    margin-left: 40% !important;
+}
